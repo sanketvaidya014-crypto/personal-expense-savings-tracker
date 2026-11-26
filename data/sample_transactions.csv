@@ -1,1 +1,23 @@
-
+transaction_id,transaction_date,type,category,amount,account,description
+T001,2026-01-01,income,Salary,50000.00,Bank,Synthetic salary
+T002,2026-01-03,expense,Rent,12000.00,Bank,Monthly rent
+T003,2026-01-05,expense,Groceries,3500.00,Card,Groceries
+T004,2026-01-08,expense,Transport,1500.00,Cash,Transport
+T005,2026-01-10,expense,Shopping,3000.00,Card,Purchase
+T006,2026-01-15,refund,Shopping,500.00,Card,Partial refund
+T007,2026-01-20,transfer,Own account transfer,5000.00,Bank,Move to own savings account
+T008,2026-02-01,income,Salary,52000.00,Bank,Synthetic salary
+T009,2026-02-03,expense,Rent,12000.00,Bank,Monthly rent
+T010,2026-02-05,expense,Groceries,4000.00,Card,Groceries
+T011,2026-02-08,expense,Transport,2000.00,Cash,Transport
+T012,2026-02-10,expense,Entertainment,2500.00,Card,Entertainment
+T013,2026-02-14,income,Freelance,8000.00,Bank,Synthetic freelance payment
+T014,2026-02-20,transfer,Own account transfer,10000.00,Bank,Move to own savings account
+T015,2026-03-01,income,Salary,52000.00,Bank,Synthetic salary
+T016,2026-03-03,expense,Rent,12000.00,Bank,Monthly rent
+T017,2026-03-05,expense,Groceries,4500.00,Card,Groceries
+T018,2026-03-08,expense,Transport,1800.00,Cash,Transport
+T019,2026-03-10,expense,Health,3500.00,Card,Health expenses
+T020,2026-03-15,refund,Shopping,1000.00,Card,Refund from earlier purchase
+BAD01,wrong-date,expense,Food,100.00,Cash,Intentional validation example
+BAD02,2026-03-20,expense,Food,-200.00,Cash,Intentional validation example
