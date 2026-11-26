@@ -1,1 +1,0 @@
-Automated validation: 3 unittest cases passed (money parsing, synthetic sample with six SQL reports and expected monthly savings, duplicate-ID rejection). Sample: 22 input / 20 accepted / 2 rejected. Tests also verify nonempty output-folder protection and successful empty-ledger reporting. These tests are not a security or accounting audit.
